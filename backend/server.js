@@ -32,6 +32,7 @@ app.get('/api/config/paypal', (req, res) =>
   res.send("AYbbEYoxI183Edvrcj6sR8Q9gspFxliiLaN4g-Yry-m_FvSOK6c6O0gkjVXnz9EJkODjM1jOfxgPAim5")
 )
 
+
 const __dirname = path.resolve()
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')))
 
